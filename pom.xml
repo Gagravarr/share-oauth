@@ -22,6 +22,21 @@
         <module>share-oauth-repo</module>
     </modules>
 
+    <repositories>
+       <repository>
+         <id>alfresco-3rd-party</id>
+         <url>https://artifacts.alfresco.com/nexus/content/repositories/thirdparty</url>
+       </repository>
+       <repository>
+         <id>alfresco-artifacts</id>
+         <url>https://artifacts.alfresco.com/nexus/content/groups/public</url>
+       </repository>
+       <repository>
+         <id>alfresco-artifacts-snapshots</id>
+         <url>https://artifacts.alfresco.com/nexus/content/groups/public-snapshots</url>
+       </repository>
+    </repositories>
+
     <distributionManagement>
         <repository>
             <id>alfresco-artifacts</id>
